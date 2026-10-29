@@ -1,6 +1,5 @@
 # SAGE: Self-evolving Agents with Reflective and Memory-augmented Abilities
 
-**Independent paper-based reproduction. This is not the authors’ official implementation.** The repository implements a compact, inspectable version of SAGE’s feedback, reflection, and memory mechanisms. It is intended for method-level study and functional validation, not to reproduce the paper’s benchmark scores.
 
 > **Figure source and reuse.** These original paper figures are reproduced by a co-author for scholarly presentation, subject to the publisher's author reuse rights. Copyright © 2025 Elsevier B.V. The figures are not included under any software license applicable to this repository. Further reuse may require permission from the relevant rights holder. Figure 3 contains a separately attributed CC BY-SA excerpt; the specific article publishing agreement was not available for inspection.
 
