@@ -54,7 +54,7 @@ Code: `src/sage/memory/forgetting.py`, `src/sage/core/clock.py`.
 
 ## Eq. 7 — MemorySyntax
 
-The linguistic optimization is $I_t \rightarrow I_t^*$. The implementation retains both original and optimized information, base strength $S$, optimized strength $S^*$, current layer, active strength, and retention. While in STM, retention uses $S^*$; after promotion, LTM starts a new decay epoch and uses base $S$.
+The linguistic optimization is $I_t \rightarrow I_t^{&#42;}$. The implementation retains both original and optimized information, base strength $S$, optimized strength $S^{&#42;}$, current layer, active strength, and retention. While in STM, retention uses $S^{&#42;}$; after promotion, LTM starts a new decay epoch and uses base $S$.
 
 The optimizer extracts facts, entities, constraints, errors, causes, corrections, reusable lessons, and evidence; it de-duplicates expressions and checks preserved content. The estimator and strength inheritance at promotion are engineering assumptions. Strength increases only after preservation validation and reduction of the lexical token proxy.
 

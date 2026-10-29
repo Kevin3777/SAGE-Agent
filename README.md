@@ -142,13 +142,15 @@ $\tau \ge 0$ is elapsed time in the configured unit, $S > 0$ is memory strength,
 
 ### Eq. 7 — MemorySyntax
 
-MemorySyntax transforms information $I_t$ into a linguistically optimized representation $I_t^*$ while retaining the source information. The implementation stores both the original and optimized information, base strength $S$, optimized strength $S^*$, memory layer, active strength, and current retention. Its layer-dependent retention branch is:
+MemorySyntax transforms information $I_t$ into a linguistically optimized representation $I_t^{&#42;}$ while retaining the source information. The implementation stores both the original and optimized information, base strength $S$, optimized strength $S^{&#42;}$, memory layer, active strength, and current retention. Its layer-dependent retention branch is:
 
 $$
-R(I_t^*, \tau) =
+R(I_t^{&#42;}, \tau) =
 \begin{cases}
-\exp(-\tau / S^*) & \text{while in STM} \\
-\exp(-\tau / S) & \text{while in LTM}
+\exp\left(-\dfrac{\tau}{S^{&#42;}}\right),
+& \text{if } I_t^{&#42;} \in \mathcal{M}_{S}, \\\\[6pt]
+\exp\left(-\dfrac{\tau}{S}\right),
+& \text{if } I_t^{&#42;} \in \mathcal{M}_{L}.
 \end{cases}
 $$
 
@@ -173,8 +175,8 @@ The paper’s Eq. 8 expression and prose do not specify the transition in exactl
 
 A memory record preserves:
 
-- original information $I$ and optimized information $I^*$;
-- base and optimized strengths $S$ and $S^*$;
+- original information $I$ and optimized information $I^{&#42;}$;
+- base and optimized strengths $S$ and $S^{&#42;}$;
 - the active STM/LTM layer, current strength, retention, timestamps, and reinforcement count;
 - a structured reflection and evidence references.
 

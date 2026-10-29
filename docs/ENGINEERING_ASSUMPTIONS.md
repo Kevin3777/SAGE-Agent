@@ -24,7 +24,7 @@ The paper does not prescribe an exact strength estimator or unit. Seconds are th
 
 ## STM and LTM strength branch
 
-STM retention uses optimized strength $S^*$. On promotion, LTM begins a new decay epoch at migration time and retention uses base strength $S$. The lifecycle event preserves the pre-transition retention that caused promotion.
+STM retention uses optimized strength $S^{&#42;}$. On promotion, LTM begins a new decay epoch at migration time and retention uses base strength $S$. The lifecycle event preserves the pre-transition retention that caused promotion.
 
 ## Threshold interpretation
 

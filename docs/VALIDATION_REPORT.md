@@ -43,7 +43,7 @@ The model’s raw outputs were not edited to manufacture success. No paid API wa
 
 ## MemorySyntax demonstration
 
-For the documented example, $R(30,60)=0.6065306597$. The lexical token estimate changed from 177 to 93 (84 fewer estimated tokens) while the example’s protected fact and constraint checks passed. The computed strengths were approximately $S=2823.56$ seconds and $S^*=3672.74$ seconds. In a FakeClock lifecycle, retention 0.69 caused STM-to-LTM promotion and retention 0.29 caused deletion from searchable SQLite storage. Boundary checks retain $R=0.7$ in STM and promote $R=0.3$ to LTM.
+For the documented example, $R(30,60)=0.6065306597$. The lexical token estimate changed from 177 to 93 (84 fewer estimated tokens) while the example’s protected fact and constraint checks passed. The computed strengths were approximately $S=2823.56$ seconds and $S^{&#42;}=3672.74$ seconds. In a FakeClock lifecycle, retention 0.69 caused STM-to-LTM promotion and retention 0.29 caused deletion from searchable SQLite storage. Boundary checks retain $R=0.7$ in STM and promote $R=0.3$ to LTM.
 
 These token counts are a lexical proxy, not model-tokenizer counts. Strength values and mapping range are implementation assumptions, not paper constants.
 
