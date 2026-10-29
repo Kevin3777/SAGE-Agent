@@ -1,4 +1,4 @@
-# SAGE: Self-evolving Agents with Reflective and Memory-augmented Abilities — Paper-Based Reproduction
+# SAGE: Self-evolving Agents with Reflective and Memory-augmented Abilities
 
 **Independent paper-based reproduction. This is not the authors’ official implementation.** The repository implements a compact, inspectable version of SAGE’s feedback, reflection, and memory mechanisms. It is intended for method-level study and functional validation, not to reproduce the paper’s benchmark scores.
 
