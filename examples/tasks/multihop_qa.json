@@ -1,0 +1,29 @@
+{
+  "dataset_note": "Small hand-authored local examples; not the original HotpotQA benchmark.",
+  "tasks": [
+    {
+      "task_id": "qa-ember-city",
+      "question": "What city is the studio behind Ember Calendar based in?",
+      "passages": {
+        "p1": "Ember Calendar was developed by Cedar Labs.",
+        "p2": "Cedar Labs has its headquarters in Wellington, New Zealand.",
+        "p3": "Harbor Notes was developed by Moss Studio."
+      },
+      "answer": "Wellington",
+      "aliases": ["Wellington, New Zealand"],
+      "expected_evidence": ["p1", "p2"]
+    },
+    {
+      "task_id": "qa-atlas-founder",
+      "question": "Who founded the company that created Atlas Notes?",
+      "passages": {
+        "p1": "Atlas Notes is a product of Northstar Labs.",
+        "p2": "Northstar Labs was founded by Imani Brooks in 2018.",
+        "p3": "Imani Brooks also advises the local library."
+      },
+      "answer": "Imani Brooks",
+      "aliases": [],
+      "expected_evidence": ["p1", "p2"]
+    }
+  ]
+}

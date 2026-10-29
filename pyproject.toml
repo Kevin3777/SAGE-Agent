@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sage-reproduction"
+version = "0.1.0"
+description = "Independent engineering reproduction of SAGE reflective memory-augmented agents"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+local = ["llama-cpp-python>=0.3.20"]
+
+[project.scripts]
+sage = "sage.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

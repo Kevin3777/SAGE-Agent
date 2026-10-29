@@ -1,0 +1,3 @@
+pytest>=8
+# Optional real local GGUF inference (CPU wheel):
+# llama-cpp-python>=0.3.20
