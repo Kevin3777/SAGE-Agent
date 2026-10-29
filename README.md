@@ -364,7 +364,7 @@ The paper does not uniquely define the policy-update operator, reflection schema
 
 ## 20. Citation
 
-If this implementation is useful, cite the paper and describe this repository as an independent reproduction:
+If this implementation is useful, cite the paper:
 
 > Liang, X. et al. (2025). SAGE: Self-evolving Agents with Reflective and Memory-augmented Abilities. *Neurocomputing*, 647, 130470. https://doi.org/10.1016/j.neucom.2025.130470
 
