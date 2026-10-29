@@ -2,7 +2,7 @@
 
 **Independent paper-based reproduction. This is not the authors’ official implementation.** The repository implements a compact, inspectable version of SAGE’s feedback, reflection, and memory mechanisms. It is intended for method-level study and functional validation, not to reproduce the paper’s benchmark scores.
 
-> **Figure source and reuse.** These original paper figures are reproduced by a co-author for scholarly presentation, subject to the publisher's author reuse rights. Copyright © 2025 Elsevier B.V. The figures are not included under any software license applicable to this repository. Further reuse may require permission from the relevant rights holder. No third-party attribution is identified in the figure captions in the published article; see the final report for the limits of this check.
+> **Figure source and reuse.** These original paper figures are reproduced by a co-author for scholarly presentation, subject to the publisher's author reuse rights. Copyright © 2025 Elsevier B.V. The figures are not included under any software license applicable to this repository. Further reuse may require permission from the relevant rights holder. Figure 3 contains a separately attributed CC BY-SA excerpt; the specific article publishing agreement was not available for inspection.
 
 ## 1. Paper Information
 
@@ -94,6 +94,7 @@ The paper's HotpotQA example shows an initial answer of "Gates v. Collier" rejec
 </p>
 <p align="center"><em>Figure 3. HotpotQA reflection example reported in the original paper.</em></p>
 <p align="center"><sub>Source: Liang et al., “SAGE: Self-evolving Agents with Reflective and Memory-augmented Abilities,” <em>Neurocomputing</em> 647 (2025), 130470, PDF page 4 (printed page 4). <a href="https://doi.org/10.1016/j.neucom.2025.130470">https://doi.org/10.1016/j.neucom.2025.130470</a>. Copyright © 2025 Elsevier B.V.</sub></p>
+<p align="center"><sub>Third-party text within Figure 3: the opening “trusty system” passage is reproduced in the paper figure from Wikipedia contributors, <a href="https://en.wikipedia.org/wiki/Trusty_system_(prison)">“Trusty system (prison)”</a>, under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. The passage is unchanged in the figure; this attribution applies to that excerpt only.</sub></p>
 
 ## 5. Mathematical Formulation
 
