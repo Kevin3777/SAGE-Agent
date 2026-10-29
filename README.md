@@ -368,8 +368,5 @@ If this implementation is useful, cite the paper:
 
 > Liang, X. et al. (2025). SAGE: Self-evolving Agents with Reflective and Memory-augmented Abilities. *Neurocomputing*, 647, 130470. https://doi.org/10.1016/j.neucom.2025.130470
 
-## 21. Acknowledgments and Licensing
-
-The method is based on the cited paper. The four original paper figures are reproduced by a co-author for scholarly presentation under the publisher's author reuse rights and are not covered by any software license applicable to this repository. Further reuse may require permission from the relevant rights holder. The verified GGUF model is distributed separately by its publisher; consult the model card and license before use. The paper PDF, model weights, and benchmark datasets are not included.
 
 No software license has been selected for this reproduction yet. Until a `LICENSE` file is added by the copyright holder, the repository code remains under default copyright restrictions; public visibility alone does not grant reuse rights. Maintainers should confirm ownership and choose a code license before describing the repository as open source.
